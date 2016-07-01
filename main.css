@@ -1,0 +1,29 @@
+div.photo1 {
+    background-color: lightblue;
+    width: 0px;
+    height: 0px;
+    border-top: 100px solid green;
+    border-bottom: 100px solid blue;
+    border-right: 100px solid red;
+    border-left: 100px solid yellow;
+}
+div.photo2 {
+    background-color: #2fe64b;
+    width: 200px;
+    height: 50px;
+    border-top: 5px double  green;
+    border-bottom: 5px dotted  green;
+    border-right: 5px solid green;
+    border-left: 5px solid green;
+    margin:0px;
+}
+div.photo3 {
+    background-color: #2fe64b;
+    width: 150px;
+    height: 200px;
+    border-top: 5px none  green;
+    border-bottom: 5px solid  green;
+    border-right: 5px solid green;
+    border-left: 5px solid green;
+    margin:0px 25px;
+}
