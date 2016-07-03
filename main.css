@@ -2,28 +2,135 @@ div.photo1 {
     background-color: lightblue;
     width: 0px;
     height: 0px;
+    border-top: 36px solid #34a296;
+    border-bottom: 100px solid #5cc5b7;
+    border-right: 85px solid #31B9AB;
+    border-left: 85px solid #31b9aa;
+    /*    margin: 10px auto;*/
+}
+
+
+/*
+div.photo1 {
+    background-color: lightblue;
+    width: 0px;
+    height: 0px;
     border-top: 100px solid green;
     border-bottom: 100px solid blue;
     border-right: 100px solid red;
     border-left: 100px solid yellow;
 }
+*/
+
 div.photo2 {
     background-color: #2fe64b;
     width: 200px;
     height: 50px;
-    border-top: 5px double  green;
-    border-bottom: 5px dotted  green;
+    border-top: 5px double green;
+    border-bottom: 5px dotted green;
     border-right: 5px solid green;
     border-left: 5px solid green;
-    margin:0px;
+    margin: 0px;
 }
+
 div.photo3 {
     background-color: #2fe64b;
     width: 150px;
     height: 200px;
-    border-top: 5px none  green;
-    border-bottom: 5px solid  green;
+    border-top: 5px none green;
+    border-bottom: 5px solid green;
     border-right: 5px solid green;
     border-left: 5px solid green;
-    margin:0px 25px;
+    margin: 0px 25px;
+}
+
+div.work2 {
+    background-color: lightblue;
+    width: 0px;
+    height: 0px;
+    border-top: 50px solid #acd8e7;
+    border-right: 100px solid #000082;
+    border-left: 100px solid #0000ff;
+    float: left;
+}
+
+div.work4-1 {
+    background-color: #333;
+    width: 250px;
+    height: 200px;
+    color: #fff;
+    font-family: sans-serif;
+    margin: 0px auto;
+    /*    border-top: 50px solid #acd8e7;*/
+    /*    border-bottom: 50px solid green;*/
+    /*    float: left;*/
+}
+
+.work4-1 h1 {
+    padding: 9px 0;
+    text-align: center;
+    font-size: 18px;
+}
+.work4-1 div{
+    margin: 0px auto;
+    width: 220px;
+}
+.work4-1 div>div {
+    width: 10px;
+    margin-left: 50px;
+    margin-bottom: -30px;
+}
+
+.work4-1 span:first-of-type {
+    font-size: 80px;
+    margin-left: 70px;
+}
+
+.work4-1 p {
+    display: inline-block !important
+}
+
+div.work4-2 {
+    background-color: #beb7b5;
+    width: 250px;
+    height: 200px;
+    margin: 0px auto;
+}
+
+.work4-2 div:first-of-type {
+    border-bottom: 1px solid;
+    width: 150px;
+    margin: 0px auto;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+.work4-2 div:nth-child(1n+2) {
+    border-bottom: 1px solid;
+    width: 150px;
+    margin: 0px auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.btn1 {
+    /*    border: 1px solid;*/
+    text-align: center;
+    /*    width: 180px;*/
+    /*    padding: 4px 5px;*/
+    /*    margin: 0 auto;*/
+}
+
+.btn2 {
+    border: 1px solid;
+    text-align: center;
+    width: 180px;
+    padding: 4px 5px;
+    margin-left: 25px;
+    margin: 0 10x;
+    /* display: block !important; */
+}
+.final{
+    width:300px; 
+    float: left;
 }
